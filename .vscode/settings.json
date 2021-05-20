@@ -1,0 +1,7 @@
+{
+  "python.linting.enabled": true,
+  "python.analysis.typeCheckingMode": "basic",
+
+  // "python.analysis.logLevel": "Trace",
+  "python.pythonPath": ".venv/bin/python",
+}

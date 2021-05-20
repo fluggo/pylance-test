@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "pylance-test"
+version = "0.1.0"
+description = "Demo project for Pylance issues"
+authors = ["Brian Crowell <brian@fluggo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+PyJWT = {extras = ["crypto"], version = "^2.0.1"}
+
+[tool.pyright]
+include = ["src"]
+executionEnvironments = [
+  { root = "src" }
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
